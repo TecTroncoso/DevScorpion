@@ -1,0 +1,9 @@
+# Ignorar todo por defecto
+*
+
+# Permitir específicamente bot2.js
+!bot2.js
+!README.md
+
+# Mantener el .gitignore trackeado
+!.gitignore
