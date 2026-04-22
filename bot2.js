@@ -10,7 +10,17 @@ const { createClient } = require('@libsql/client');
 const OpenAI = require('openai');
 const { LRUCache } = require('lru-cache');
 require('dotenv').config();
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
 
+app.get('/', (req, res) => {
+    res.send('🦂 DevScorpion Bot está vivo y funcionando.');
+});
+
+app.listen(PORT, () => {
+    console.log(`🌐 Servidor web escuchando en el puerto ${PORT}`);
+});
 // ── Constantes ─────────────────────────────────────────────────
 const MAX_HISTORY = 20;
 const CHAR_LIMIT = 1900;
