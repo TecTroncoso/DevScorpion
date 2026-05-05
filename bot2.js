@@ -24,7 +24,7 @@ app.listen(PORT, () => {
 // ── Constantes ─────────────────────────────────────────────────
 const MAX_HISTORY = 20;
 const CHAR_LIMIT = 1900;
-const MODEL = "qwen3.5:397b";
+const MODEL = "deepseek-v4-flash";
 const DB_FLUSH_MS = 5000;
 
 // ── System prompt mejorado ────────────────────────────────────
