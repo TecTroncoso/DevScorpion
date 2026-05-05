@@ -24,7 +24,7 @@ app.listen(PORT, () => {
 // ── Constantes ─────────────────────────────────────────────────
 const MAX_HISTORY = 20;
 const CHAR_LIMIT = 1900;
-const MODEL = "deepseek-v3.1:671b";
+const MODEL = "minimax-m2.5";
 const DB_FLUSH_MS = 5000;
 
 // ── System prompt mejorado ────────────────────────────────────
